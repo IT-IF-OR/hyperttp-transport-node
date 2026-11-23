@@ -1,6 +1,6 @@
 {
   "name": "@hyperttp/transport-node",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Native Node.js HTTP/1.1 and HTTP/2 transport for Hyperttp",
   "keywords": [
     "fetch",
