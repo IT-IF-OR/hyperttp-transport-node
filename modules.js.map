@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/modules.ts"],
+  "sourcesContent": ["export async function dynamicImport(specifier: string): Promise<unknown> {\n  return import(specifier);\n}\n"],
+  "mappings": "aAAA,sBAAsB,cAAcA,EAAiB,CACnD,OAAO,OAAOA,EAChB",
+  "names": ["specifier"]
+}

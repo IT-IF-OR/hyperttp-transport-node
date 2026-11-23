@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.ts"],
+  "sourcesContent": ["declare module \"@hyperttp/types\" {\n  interface HyperClientOptions {\n    /** Prefer HTTP/2 transport selection for REST and gRPC without modifying global fetch. */\n    http2?: boolean;\n  }\n}\n\nexport { FetchTransport } from \"./fetch.js\";\nexport { Http2Transport, Http2Transport as GrpcTransport } from \"./http2.js\";\nexport type { FetchTransportOptions } from \"./fetch.js\";\nexport type { Http2ServerTlsOptions, Http2TransportConfig } from \"./http2-types.js\";\n"],
+  "mappings": "aAOA,OAAS,mBAAsB,aAC/B,OAAS,eAAgB,kBAAkB,kBAAqB",
+  "names": []
+}
